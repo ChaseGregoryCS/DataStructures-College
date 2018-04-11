@@ -1,0 +1,10 @@
+#!bin/bash
+
+c++ Heap.cpp -c
+c++ UnionFind.cpp -c
+c++ Queue.cpp  Queue.h -c
+c++ Stack.cpp Stack.h -c
+c++ Graph.cpp Queue.o Stack.o Heap.o UnionFind.o -o Graph
+
+rm *.h.gch
+rm *.o

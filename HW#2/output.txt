@@ -1,0 +1,502 @@
+Man 1: 
+Man 2: 
+Man 3: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w1	w2
++++++++++++++++ m2's preferences +++++++++++++++
+	w1	w2
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m1	m2
++++++++++++++++ w2's preferences +++++++++++++++
+	m1	m2
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m2,w2) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w2
+w2 is engaged to another man
+w2 prefers m1 to m' //m' becomes free (m1,w2) engaged
+ALMOST
+mPrime: m2 chosenPreference: w2
+===========================iteration#: 3 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m2,w1) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m2, w1)
+	(m1, w2)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w1	w2
++++++++++++++++ m2's preferences +++++++++++++++
+	w2	w1
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m1	m2
++++++++++++++++ w2's preferences +++++++++++++++
+	m1	m2
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m2,w1) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m1,w2) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m1, w2)
+	(m2, w1)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w2	w1
++++++++++++++++ m2's preferences +++++++++++++++
+	w1	w2
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m1	m2
++++++++++++++++ w2's preferences +++++++++++++++
+	m1	m2
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m2,w2) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m1,w1) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m1, w1)
+	(m2, w2)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w1	w2
++++++++++++++++ m2's preferences +++++++++++++++
+	w1	w2
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m1	m2
++++++++++++++++ w2's preferences +++++++++++++++
+	m2	m1
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m2,w2) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w2
+w2 is engaged to another man
+w2 prefers otherGuy to m1 //m remains free
+===========================iteration#: 3 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m1,w1) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m1, w1)
+	(m2, w2)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w1	w2
++++++++++++++++ m2's preferences +++++++++++++++
+	w1	w2
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m2	m1
++++++++++++++++ w2's preferences +++++++++++++++
+	m1	m2
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m2,w2) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w2
+w2 is engaged to another man
+w2 prefers m1 to m' //m' becomes free (m1,w2) engaged
+ALMOST
+mPrime: m2 chosenPreference: w2
+===========================iteration#: 3 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m2,w1) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m2, w1)
+	(m1, w2)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w1	w2
++++++++++++++++ m2's preferences +++++++++++++++
+	w1	w2
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m2	m1
++++++++++++++++ w2's preferences +++++++++++++++
+	m2	m1
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m2,w2) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w2
+w2 is engaged to another man
+w2 prefers otherGuy to m1 //m remains free
+===========================iteration#: 3 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m1,w1) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m1, w1)
+	(m2, w2)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w1	w2
++++++++++++++++ m2's preferences +++++++++++++++
+	w2	w1
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m1	m2
++++++++++++++++ w2's preferences +++++++++++++++
+	m2	m1
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m2,w1) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m1,w2) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m1, w2)
+	(m2, w1)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w1	w2
++++++++++++++++ m2's preferences +++++++++++++++
+	w2	w1
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m2	m1
++++++++++++++++ w2's preferences +++++++++++++++
+	m1	m2
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m2,w1) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m1,w2) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m1, w2)
+	(m2, w1)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w1	w2
++++++++++++++++ m2's preferences +++++++++++++++
+	w2	w1
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m2	m1
++++++++++++++++ w2's preferences +++++++++++++++
+	m2	m1
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m2,w1) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m1,w2) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m1, w2)
+	(m2, w1)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w1	w2
++++++++++++++++ m2's preferences +++++++++++++++
+	w1	w2
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m2	m1
++++++++++++++++ w2's preferences +++++++++++++++
+	m2	m1
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m2,w2) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w2
+w2 is engaged to another man
+w2 prefers otherGuy to m1 //m remains free
+===========================iteration#: 3 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m1,w1) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m1, w1)
+	(m2, w2)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w2	w1
++++++++++++++++ m2's preferences +++++++++++++++
+	w1	w2
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m1	m2
++++++++++++++++ w2's preferences +++++++++++++++
+	m1	m2
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m2,w2) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m1,w1) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m1, w1)
+	(m2, w2)
+
+
+Test Again?: 
+Man 3: 
+Man 4: 
+Man 5: 
+Woman 1: 
+Woman 2: 
+Woman 3: 
+==========================Gents=========================
+
++++++++++++++++ m1's preferences +++++++++++++++
+	w2	w1
++++++++++++++++ m2's preferences +++++++++++++++
+	w1	w2
+==========================Ladies========================
+
++++++++++++++++ w1's preferences +++++++++++++++
+	m2	m1
++++++++++++++++ w2's preferences +++++++++++++++
+	m2	m1
+
+
+===========================iteration#: 1 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m2
+//Let w be the highest w on m's preference: w2
+// if w2 is free (m2,w2) engaged
+===========================iteration#: 2 ===========================
+//while there is a man free and hasn't proposed
+//Choose a man: m1
+//Let w be the highest w on m's preference: w1
+// if w1 is free (m1,w1) engaged
+
+
+
++++++++++++++++++++++++++Stable matching+++++++++++++++++++++++++
+	(m1, w1)
+	(m2, w2)
+
+
+Test Again?: 

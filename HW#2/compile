@@ -1,0 +1,8 @@
+#!/bin/bash
+
+c++ StringStack.cpp StringStack.h -c
+c++ PeopleList.cpp PeopleList.h -c
+c++ PairList.cpp PairList.h -c
+c++ MatchingSetProblem.cpp StringStack.o PeopleList.o PairList.o 
+
+

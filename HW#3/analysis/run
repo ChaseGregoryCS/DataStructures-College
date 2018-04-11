@@ -1,0 +1,15 @@
+#!bin/bash
+
+c++ StopWatch.cpp -c
+c++ TripleSum.cpp -o TripleSum
+
+#TripleSum < test1.txt > 500.csv
+#TripleSum < test2.txt > 1000.csv
+#TripleSum < test3.txt > 2000.csv
+#TripleSum < test4.txt > 4000.csv
+#TripleSum < test5.txt > 8000.csv
+#TripleSum < test6.txt > 16000.csv
+#TripleSum < test7.txt > 32000.csv
+
+#Rscript analysis.R
+

@@ -1,0 +1,5 @@
+#!bin/bash
+
+c++ Bucket.cpp Bucket.h -c
+c++ HashTable.cpp HashTable.h -c
+c++ HashTableDriver.cpp HashTable.o Bucket.o -Wall -Wshadow -Wextra -ggdb -o test

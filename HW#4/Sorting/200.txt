@@ -1,0 +1,5 @@
+Please enter the list size: BubbleSort: 236341
+SelectionSort: 378923
+HeapSort: 69357
+MergeSort: 37035
+QuickSort: 28771

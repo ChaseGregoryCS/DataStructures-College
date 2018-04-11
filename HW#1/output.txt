@@ -1,0 +1,138 @@
+Propagate data with our SolarSystem data? (y/n) 
+Please enter the corresponding number: 
+       0:Exit 
+       1:God Mode 
+       2:Space Ship Mode 
+   selection: SpaceShipMode
+How would you like to proceed?: 
+           0:Exit SpaceShipMode 
+           1:See Planets by Distance
+           2:See Planets by Mass
+           3:See Planets by Diameter
+           4:Traverse the planets one by one
+   selection: Name|Distance 
+Mercury|36
+Venus|67.2
+Earth|93
+Mars|141.6
+Jupiter|483.8
+Saturn|890.8
+Uranus|1784.4
+Neptune|2793.1
+Pluto|3670
+How would you like to proceed?: 
+           0:Exit SpaceShipMode 
+           1:See Planets by Distance
+           2:See Planets by Mass
+           3:See Planets by Diameter
+           4:Traverse the planets one by one
+   selection: Name|Mass 
+Pluto|3670
+Mercury|0.364
+Mars|0.708
+Venus|5.37
+Earth|6.58
+Uranus|95.7
+Neptune|113
+Saturn|627
+Jupiter|2093
+How would you like to proceed?: 
+           0:Exit SpaceShipMode 
+           1:See Planets by Distance
+           2:See Planets by Mass
+           3:See Planets by Diameter
+           4:Traverse the planets one by one
+   selection: Name|Diameter 
+Pluto|3670
+Mercury|3032
+Mars|4221
+Venus|7521
+Earth|7926
+Neptune|30775
+Uranus|31763
+Saturn|74897
+Jupiter|88846
+How would you like to proceed?: 
+           0:Exit SpaceShipMode 
+           1:See Planets by Distance
+           2:See Planets by Mass
+           3:See Planets by Diameter
+           4:Traverse the planets one by one
+   selection: Please enter the corresponding number: 
+       0:Exit 
+       1:God Mode 
+       2:Space Ship Mode 
+          selection:  Would you like to Add or Delete a planet?
+           0:Exit
+           1:Add Planet
+           2:Delete Planet
+           3:View Current Solar System by Distance from the sun
+                   Selection: What would you like to call your planet?: 
+What is it's mass?: 
+What is it's diameter?: 
+What is it's distance?:  Would you like to Add or Delete a planet?
+           0:Exit
+           1:Add Planet
+           2:Delete Planet
+           3:View Current Solar System by Distance from the sun
+                   Selection: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+George|20|20|20
+Mercury|0.364|3032|36
+Venus|5.37|7521|67.2
+Earth|6.58|7926|93
+Mars|0.708|4221|141.6
+Jupiter|2093|88846|483.8
+Saturn|627|74897|890.8
+Uranus|95.7|31763|1784.4
+Neptune|113|30775|2793.1
+Pluto|0.0161|1464|3670
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Would you like to Add or Delete a planet?
+           0:Exit
+           1:Add Planet
+           2:Delete Planet
+           3:View Current Solar System by Distance from the sun
+                   Selection: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+George|20|20|20
+Mercury|0.364|3032|36
+Venus|5.37|7521|67.2
+Earth|6.58|7926|93
+Mars|0.708|4221|141.6
+Jupiter|2093|88846|483.8
+Saturn|627|74897|890.8
+Uranus|95.7|31763|1784.4
+Neptune|113|30775|2793.1
+Pluto|0.0161|1464|3670
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Which Planet would you like to destroy (name)?:  Would you like to Add or Delete a planet?
+           0:Exit
+           1:Add Planet
+           2:Delete Planet
+           3:View Current Solar System by Distance from the sun
+                   Selection: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Mercury|0.364|3032|36
+Venus|5.37|7521|67.2
+Earth|6.58|7926|93
+Mars|0.708|4221|141.6
+Jupiter|2093|88846|483.8
+Saturn|627|74897|890.8
+Uranus|95.7|31763|1784.4
+Neptune|113|30775|2793.1
+Pluto|0.0161|1464|3670
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Would you like to Add or Delete a planet?
+           0:Exit
+           1:Add Planet
+           2:Delete Planet
+           3:View Current Solar System by Distance from the sun
+                   Selection: Please enter the corresponding number: 
+       0:Exit 
+       1:God Mode 
+       2:Space Ship Mode 
+          selection: 

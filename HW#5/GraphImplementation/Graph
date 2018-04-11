@@ -1,0 +1,110 @@
+#include <iostream>
+#include <string>
+
+class Graph{
+  public:
+        struct Verticies;
+        struct Joint;
+        typedef Joint* edge;
+        typedef Verticies* link;
+        
+        struct Verticies{
+            string id;
+            link next;
+            link prev;
+            edge top;
+        };
+
+        struct Joint{
+            string vID;
+            edge next;
+        };
+
+        Graph():head(NULL), last(NULL), listLength(0){};
+
+        void AddVerticie(string id){
+            link iter = NULL;
+            if(listLength == 0){
+                head = new Verticies;
+                head->id = id;
+                head->next = NULL;
+                head->prev = NULL;
+                head->top = NULL;
+                last = head;
+            }else{
+                iter = new Verticies;
+                iter->id = id;
+                iter->next = NULL;
+                iter->prev = last;
+                iter->top = NULL;
+                last->next = iter;
+                last = iter;
+            }
+            listLength++;
+            return;
+        };
+
+/*
+        bool RemoveVerticie(string id){
+            link source = FindSource(id);
+            if(source){
+                link iter = head;
+                edge remove;
+                edge hunter = iter->top;
+                while(iter->next){
+                    while(hunter->next){
+                        if(source->id == hunter->vID){
+                            remove = hunter;
+                            if(hunter->next) hunter = hunter->next;
+                            delete remove;
+                            remove = NULL;
+                        }
+                    }
+
+                }
+            }else return false;
+        }; // will have to find all links to the verticie in order to destroy completely (No NULL pointers)
+    */
+        bool AddEdge(string src, string dest){
+            link source = FindSource(src);
+            link destination = FindSource(dest);
+            if(!source or !destination) return false;
+            edge newV = NewVerticie(dest);
+            newV->next = source.top;
+            source.top = newV;
+            delete newV;
+            newV = NewVerticie(src);
+            newV->next = destination.top;
+            destination.top = newV;
+            return true;
+        };
+        
+        /*bool RemoveEdge(string id, string otherID){};*/ 
+
+        void Print(){};
+
+  private:  
+        link head;
+        link last;
+        int listLength;
+
+        link FindSource(string id){
+            link iter = head;
+            while(iter->next){
+                if(iter->id == id)
+                    return iter;
+                iter = iter->next;
+            }
+            if(iter->id == id)
+                return iter;
+            return NULL;
+        };
+
+        edge NewVerticie(string dest){
+            edge newV = new Verticies;
+            newV->vID = dest;
+            newV->next = NULL;
+            return newV;
+        };
+
+};
